@@ -44,7 +44,7 @@ export default function Cta(){
 
                                     <div className="mt-8">
                                         <div className="section-title text-md-start">
-                                            <p className="text-white/70 max-w-xl mx-auto mb-2">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
+                                            <p className="text-white/70 max-w-xl mx-auto mb-2">This is just a simple text made for this unique and a, you can replace it with any text.</p>
                                             <Link to="" className="text-white">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                         </div>
                                     </div>

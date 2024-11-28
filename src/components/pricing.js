@@ -7,7 +7,7 @@ export default function Pricing(){
         <div className="container relative">
             <div className="grid grid-cols-1 pb-6 text-center">
                 <h3 className="font-semibold text-2xl leading-normal mb-4">Our Pricing</h3>
-                <p className="text-slate-400 max-w-xl mx-auto">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
+                <p className="text-slate-400 max-w-xl mx-auto">This is just a simple text made for this unique akjk  you can replace it with any text.</p>
             </div>
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-6 gap-6">

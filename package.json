@@ -1,7 +1,8 @@
 {
-  "name": "upcover",
+  "homepage": "https://<your-username>.github.io/<repository-name>",
+  "name": "3arfa",
   "version": "1.0.0",
-  "description": "Upcover - React js Business Landing Page Template",
+  "description": "3arfa is a  marketing project.",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "resolve-url-loader": "^5.0.0",
     "tailwindcss": "^3.4.1"
   }
