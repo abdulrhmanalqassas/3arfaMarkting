@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/3arfaMarkting/static/css/main.86237294.css",
-    "main.js": "/3arfaMarkting/static/js/main.0aaf4b28.js",
+    "main.js": "/3arfaMarkting/static/js/main.2fd1b717.js",
     "static/js/787.7029a74d.chunk.js": "/3arfaMarkting/static/js/787.7029a74d.chunk.js",
     "static/media/materialdesignicons-webfont.eot": "/3arfaMarkting/static/media/materialdesignicons-webfont.4a8138d1cb5d6b81b4ce.eot",
     "static/media/materialdesignicons-webfont.ttf?v=7.2.96": "/3arfaMarkting/static/media/materialdesignicons-webfont.06045137a6bebf225b52.ttf",
@@ -38,11 +38,11 @@
     "static/media/lenovo.svg": "/3arfaMarkting/static/media/lenovo.60fa5b6b35ae30991e8a9c129a835832.svg",
     "index.html": "/3arfaMarkting/index.html",
     "main.86237294.css.map": "/3arfaMarkting/static/css/main.86237294.css.map",
-    "main.0aaf4b28.js.map": "/3arfaMarkting/static/js/main.0aaf4b28.js.map",
+    "main.2fd1b717.js.map": "/3arfaMarkting/static/js/main.2fd1b717.js.map",
     "787.7029a74d.chunk.js.map": "/3arfaMarkting/static/js/787.7029a74d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86237294.css",
-    "static/js/main.0aaf4b28.js"
+    "static/js/main.2fd1b717.js"
   ]
 }
