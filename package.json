@@ -1,5 +1,5 @@
 {
-  "homepage": "https://<your-username>.github.io/<repository-name>",
+  "homepage": "https://abdulrhmanalqassas.github.io/3arfaMarkting",
   "name": "3arfa",
   "version": "1.0.0",
   "description": "3arfa is a  marketing project.",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
