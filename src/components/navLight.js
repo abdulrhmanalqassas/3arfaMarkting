@@ -24,12 +24,12 @@ export default function NavLight() {
       <div className="container relative flex flex-wrap items-center justify-between">
         <Link className="navbar-brand md:me-8" to="/">
           <span className="inline-block dark:hidden">
-            <img src={logoDark} className="h-12 l-dark" alt="" />
-            <img src={logoLight} className="h-12 l-light" alt="" />
+            <img src={logoDark} className="h-20  l-dark" alt="" />
+            <img src={logoLight} className="h-20 l-light" alt="" />
           </span>
           <img
             src={logoLight}
-            className="h-12 hidden dark:inline-block"
+            className="h-24 w-40 hidden dark:inline-block"
             alt=""
           />
         </Link>
@@ -41,7 +41,7 @@ export default function NavLight() {
                 to=""
                 className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase"
               >
-                contact us 
+                contact us
               </Link>
             </li>
           </ul>

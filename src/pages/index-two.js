@@ -92,7 +92,7 @@ export default function IndexTwo() {
       <div className="relative">
         <div className="absolute block w-full h-auto bottom-[25px] z-1 start-0">
           <Link to="">
-            <i className="mdi mdi-arrow-down absolute top-0 start-0 end-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i>
+            <i className="mdi mdi-arrow-down absolute top-0 start-0 end-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-20 w-12 mx-auto shadow-md dark:shadow-gray-800"></i>
           </Link>
         </div>
 
