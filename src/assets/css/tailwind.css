@@ -1202,7 +1202,7 @@ video {
 }
 .bg-teal-500 {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 204 51 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(240 186 32 / var(--tw-bg-opacity)) !important;
 }
 .bg-teal-500\/5 {
   background-color: rgb(20 184 166 / 0.05) !important;
@@ -1547,7 +1547,7 @@ video {
 }
 .text-teal-500 {
   --tw-text-opacity: 1 !important;
-  color: rgb(255 204 51 / var(--tw-text-opacity)) !important;
+  color: rgb(240 186 32 / var(--tw-text-opacity)) !important;
 }
 .text-white {
   --tw-text-opacity: 1 !important;
@@ -1786,7 +1786,7 @@ p {
 }
 :is(:where(.dark) .navbar.is-sticky) {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 204 51 / var(--tw-bg-opacity));
+  background-color: rgb(240 186 32 / var(--tw-bg-opacity));
   --tw-shadow-color: rgb(250, 250, 0);
   --tw-shadow: var(--tw-shadow-colored);
 }
