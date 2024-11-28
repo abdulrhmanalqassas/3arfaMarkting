@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/3arfaMarkting/static/css/main.86237294.css",
-    "main.js": "/3arfaMarkting/static/js/main.2fd1b717.js",
+    "main.js": "/3arfaMarkting/static/js/main.4b20e5dd.js",
     "static/js/787.7029a74d.chunk.js": "/3arfaMarkting/static/js/787.7029a74d.chunk.js",
     "static/media/materialdesignicons-webfont.eot": "/3arfaMarkting/static/media/materialdesignicons-webfont.4a8138d1cb5d6b81b4ce.eot",
     "static/media/materialdesignicons-webfont.ttf?v=7.2.96": "/3arfaMarkting/static/media/materialdesignicons-webfont.06045137a6bebf225b52.ttf",
@@ -21,7 +21,6 @@
     "static/media/ab3.jpg": "/3arfaMarkting/static/media/ab3.8d2d6a373d0302facfbe.jpg",
     "static/media/ab1.jpg": "/3arfaMarkting/static/media/ab1.f7ca419ce7353053333a.jpg",
     "static/media/ab7.jpg": "/3arfaMarkting/static/media/ab7.505467cc1abdb8ee259b.jpg",
-    "static/media/about.jpg": "/3arfaMarkting/static/media/about.f759d21a49b78240c207.jpg",
     "static/media/ab4.jpg": "/3arfaMarkting/static/media/ab4.600f7788494b36b686c6.jpg",
     "static/media/contact.svg": "/3arfaMarkting/static/media/contact.adff68c5dcc9005ceb1a5566aaf4440b.svg",
     "static/media/ab6.jpg": "/3arfaMarkting/static/media/ab6.31e4241d09516894c1ba.jpg",
@@ -38,11 +37,11 @@
     "static/media/lenovo.svg": "/3arfaMarkting/static/media/lenovo.60fa5b6b35ae30991e8a9c129a835832.svg",
     "index.html": "/3arfaMarkting/index.html",
     "main.86237294.css.map": "/3arfaMarkting/static/css/main.86237294.css.map",
-    "main.2fd1b717.js.map": "/3arfaMarkting/static/js/main.2fd1b717.js.map",
+    "main.4b20e5dd.js.map": "/3arfaMarkting/static/js/main.4b20e5dd.js.map",
     "787.7029a74d.chunk.js.map": "/3arfaMarkting/static/js/787.7029a74d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86237294.css",
-    "static/js/main.2fd1b717.js"
+    "static/js/main.4b20e5dd.js"
   ]
 }
