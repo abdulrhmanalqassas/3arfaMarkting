@@ -5,9 +5,12 @@
   "description": "3arfa is a  marketing project.",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.120.1",
+    "@react-three/fiber": "^8.17.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "maath": "^0.10.8",
     "react": "^18.2.0",
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
@@ -19,6 +22,7 @@
     "react-scroll": "^1.9.0",
     "sass": "^1.70.0",
     "tiny-slider-react": "^0.5.7",
+    "ua-parser-js": "^2.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

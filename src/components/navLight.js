@@ -87,6 +87,30 @@ export default function NavLight() {
                 About
               </Link1>
             </li>
+            <li className="nav-item">
+              <Link1
+                className="nav-link ms-0"
+                to="about"
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                spy={true}
+              >
+                more
+              </Link1>
+            </li>
+            <li className="nav-item">
+              <Link1
+                className="nav-link ms-0"
+                to="about"
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                spy={true}
+              >
+                Campaiyns
+              </Link1>
+            </li>
             {/* <li className="nav-item">
                             <Link1 className="nav-link ms-0" to="services" smooth={true} duration={1000} activeClass='active' spy={true}>Services</Link1>
                         </li>

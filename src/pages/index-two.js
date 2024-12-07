@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import bg1 from "../assets/images/bg/1.png"; // First background image
-import bg2 from "../assets/images/bg/2.png"; // Second background image
-import bg3 from "../assets/images/bg/3.png"; // Third background image
+import bg1 from "../assets/images/bg/bg1.jpg"; // First background image
+import bg2 from "../assets/images/bg/bg2.jpg"; // Second background image
+import bg3 from "../assets/images/bg/bg3.jpg"; // Third background image
+// Third background image
 
 import NavLight from "../components/navLight";
 import About from "../components/about";
 import Services from "../components/services";
-import AgencyTab from "../components/agencyTab";
-import Cta from "../components/cta";
-import Client from "../components/client";
-import Pricing from "../components/pricing";
-import Blogs from "../components/blog";
+
 import Footer from "../components/footer";
 import Switcher from "../components/switcher";
 import ModalVideo from "react-modal-video";
 import "../../node_modules/react-modal-video/scss/modal-video.scss";
 import GetInTouch from "../components/getInTuoch";
+import Partnners from "../components/Partners.scene";
+
+import target from "../assets/icons/target.svg";
 
 export default function IndexTwo() {
   const [bg, setBg] = useState(bg1);
@@ -63,29 +63,28 @@ export default function IndexTwo() {
             </div>
             <ModalVideo
               channel="youtube"
+              autoplay
               youtube={{ mute: 0, autoplay: 1 }}
               isOpen={isOpen}
-              videoId="_sQgHS3tUyM"
+              videoId="mVSU0pJAYUI"
               onClose={() => setOpen(false)}
             />
 
-            <h4 className="text-white font-semibold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl my-5">
-            3arfa We Collaboration Easy & Fast
+            <h4 className="text-teal-500 font-semibold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl my-5">
+              <img
+                src={target}
+                alt=""
+                className="me-2 inline-block size-12 text-teal-500"
+              />{" "}
+              arafa Your destination to the top
             </h4>
 
             <p className="text-white/70 text-lg max-w-xl mx-auto">
-              This is just a simple text made for this unique and awesome
-             compane  you can replace it with any text.
+              Arafa Agency is an organization seeks to create, lead and manage
+              brands around Egypt.
             </p>
 
-            <div className="relative mt-8">
-              <Link
-                to=""
-                className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
-              >
-                Get Started
-              </Link>
-            </div>
+            <div className="relative mt-8"></div>
           </div>
         </div>
       </section>
@@ -112,9 +111,10 @@ export default function IndexTwo() {
       </div>
       <About />
       <Services />
-      <AgencyTab />
+      <Partnners />
+      {/* <AgencyTab /> */}
       {/* <Cta /> */}
-      <Client />
+      {/* <Client /> */}
       {/* <Pricing/> */}
       {/* <Blogs/> */}
       <GetInTouch />

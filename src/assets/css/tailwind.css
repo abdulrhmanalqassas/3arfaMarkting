@@ -1204,6 +1204,9 @@ video {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(240 186 32 / var(--tw-bg-opacity)) !important;
 }
+.auto-rows-fr {
+  grid-auto-rows: minmax(auto, 1fr);
+}
 .bg-teal-500\/5 {
   background-color: rgb(20 184 166 / 0.05) !important;
 }

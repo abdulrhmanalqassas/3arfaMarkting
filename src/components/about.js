@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import aboutImage from "../assets/images/bg/1.png";
-
+import { FiTarget } from "react-icons/fi";
 import CountUp from "react-countup";
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
                       <CountUp
                         className="counter-value text-6xl font-semibold"
                         start={0}
-                        end={15}
+                        end={20}
                       />
                       +
                     </span>
@@ -40,19 +40,19 @@ export default function About() {
           <div className="md:col-span-6">
             <div className="lg:ms-8">
               <h6 className="text-teal-500 text-sm font-semibold uppercase mb-2">
-                Who Are We ?
+                <FiTarget className="size-12 inline-block mr-1" /> who we are ?
               </h6>
-              <h3 className="font-semibold text-2xl leading-normal mb-4">
-                We're a global stakeholder <br /> relations and partnership{" "}
-                <br /> building consultancy.
+              <h3 className=" text-4xl font-semibold text-2xl leading-normal mb-4">
+                seeks to create, <br />
+                lead and manage brands <br /> around Egypt .
               </h3>
 
               <p className="text-slate-400 max-w-xl mb-6">
-                Get instant helpful resources about anything on the go, easily
-                implement secure money transfer solutions, boost your daily
-                efficiency, connect to other app users and create your own
-                Techwind network, and much more with just a few taps. commodo
-                consequat. Duis aute irure.
+                Arafa Agency is an organization seeks to create, lead and manage
+                brands around Egypt. As per our point view “Branding” not only
+                means to create visual identity for business, but also to
+                identify, create and manage the cumulative assets and actions
+                that shape the perception of a brand.
               </p>
 
               <Link
