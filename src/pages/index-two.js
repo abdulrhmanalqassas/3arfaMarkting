@@ -48,7 +48,7 @@ export default function IndexTwo() {
             style={{ backgroundImage: `url(${bg})` }}
           ></div>
         </div>
-        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="absolute inset-0 "></div>
 
         <div className="container relative">
           <div className="grid grid-cols-1 text-center">

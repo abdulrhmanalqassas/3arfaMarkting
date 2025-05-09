@@ -44,7 +44,7 @@ export default function Services() {
             />
             {item.title}
           </Link>
-          <p className="text-slate-100 mt-3 p-5 md:p-0 text-xl">{item.desc}</p>
+          <p className="text-slate-100 mt-3 p-5 md:p-0 text-xl text-justify">{item.desc}</p>
 
           <div className="mt-6 mx-auto">
             {/* <Link to="" className="text-teal-500">

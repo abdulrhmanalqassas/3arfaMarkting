@@ -40,7 +40,7 @@ export default function IndexSeven() {
                 className="slide-inner absolute end-0 top-0 w-full h-full slide-bg-image flex items-center bg-center;"
                 style={{ backgroundImage: `url(${bg})` }}
               >
-                <div className="absolute inset-0 bg-black/70"></div>
+                <div className="absolute inset-0 bg-black"></div>
                 <div className="container relative">
                   <div className="grid grid-cols-1">
                     <div className="text-left">

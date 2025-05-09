@@ -9,11 +9,12 @@ import IndexFour from "./pages/index-four";
 import IndexFive from "./pages/index-five";
 import IndexSix from "./pages/index-six";
 import IndexSeven from "./pages/index-seven";
-
+import AboutPage from "./pages/about";
 function App() {
   return (
     <Routes>
       <Route path="/3arfaMarkting/" element={<IndexTwo />} />
+      <Route path="/about/" element={<AboutPage />} />
       {/* <Route path='/index-two' element={<IndexTwo/>}/>
       <Route path='/index-three' element={<IndexThree/>}/>
       <Route path='/index-four' element={<IndexFour/>}/>
