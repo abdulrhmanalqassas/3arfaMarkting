@@ -114,7 +114,7 @@ export default function IndexTwo() {
       <Partnners />
       {/* <AgencyTab /> */}
       {/* <Cta /> */}
-      {/* <Client /> */}
+
       {/* <Pricing/> */}
       {/* <Blogs/> */}
       <GetInTouch />

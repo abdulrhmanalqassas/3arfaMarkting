@@ -7,6 +7,7 @@ import { UAParser } from "ua-parser-js";
 import NavLight from "../components/navLight";
 import TestimonialsSlider from "../components/TestimonialsSlider";
 import TeamSection from "../components/team";
+import Client from "../components/client";
 export function isMobileDevice() {
   const parser = new UAParser();
   const deviceType = parser.getDevice().type;
@@ -143,6 +144,7 @@ export const AboutPage = () => {
           </div>
         </div>
       </div> */}
+
       <section className="py-24 relative">
         <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
           <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-12">
@@ -186,11 +188,11 @@ export const AboutPage = () => {
                   </div>
                 </div>
               </div>
-              <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                <span className="px-1.5 text-white text-sm font-medium leading-6">
-                  Read More
-                </span>
-              </button>
+                {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                  <span className="px-1.5 text-white text-sm font-medium leading-6">
+                    Read More
+                  </span>
+                </button> */}
             </div>
             <div className="w-full lg:w-1/2 justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1">
               <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
@@ -210,6 +212,7 @@ export const AboutPage = () => {
         </div>
       </section>
       <TestimonialsSlider />
+      <Client />
       <TeamSection />
     </>
   );

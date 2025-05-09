@@ -37,12 +37,12 @@ export default function NavLight() {
         <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
           <ul className="list-none menu-social mb-0">
             <li className="inline">
-              <Link
-                to=""
+              <Link1
+                to="contact"
                 className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase"
               >
                 contact us
-              </Link>
+              </Link1>
             </li>
           </ul>
           <button
@@ -68,7 +68,7 @@ export default function NavLight() {
                 className="nav-link ms-0"
                 to="home"
                 smooth={true}
-                duration={1000}
+                duration={100}
                 activeClass="active"
                 spy={true}
               >
@@ -76,16 +76,12 @@ export default function NavLight() {
               </Link1>
             </li>
             <li className="nav-item">
-              <Link1
+              <Link
                 className="nav-link ms-0"
-                to="about"
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-                spy={true}
+                to="/about"
               >
                 About
-              </Link1>
+              </Link>
             </li>
             <li className="nav-item">
               <Link1

@@ -15,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/3arfaMarkting/" element={<IndexTwo />} />
       <Route path="/about/" element={<AboutPage />} />
+      {/* <Route path='/index-three' element={<IndexThree/>}/> */}
       {/* <Route path='/index-two' element={<IndexTwo/>}/>
       <Route path='/index-three' element={<IndexThree/>}/>
       <Route path='/index-four' element={<IndexFour/>}/>
