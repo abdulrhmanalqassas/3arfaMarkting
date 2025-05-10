@@ -80,7 +80,7 @@ export default function TeamMembers() {
             These people work on making our product best.
           </p>
         </div>
-        <div className="grid  md:grid-cols-4 lg:grid-cols-5 gap-8 gap-y-14 max-w-3xl mx-auto lg:max-w-full">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 gap-y-14 max-w-3xl mx-auto lg:max-w-full">
           {teamMembers.map((member, index) => (
             <TeamMember key={index} member={member} />
           ))}

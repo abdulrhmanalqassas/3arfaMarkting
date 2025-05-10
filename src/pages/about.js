@@ -8,6 +8,7 @@ import NavLight from "../components/navLight";
 import TestimonialsSlider from "../components/TestimonialsSlider";
 import TeamSection from "../components/team";
 import Client from "../components/client";
+import ImgSwiper from "../components/ImgSwiper";
 export function isMobileDevice() {
   const parser = new UAParser();
   const deviceType = parser.getDevice().type;
@@ -188,7 +189,7 @@ export const AboutPage = () => {
                   </div>
                 </div>
               </div>
-                {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+              {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
                   <span className="px-1.5 text-white text-sm font-medium leading-6">
                     Read More
                   </span>
@@ -213,6 +214,7 @@ export const AboutPage = () => {
       </section>
       <TestimonialsSlider />
       <Client />
+      {/* <ImgSwiper /> */}
       <TeamSection />
     </>
   );
