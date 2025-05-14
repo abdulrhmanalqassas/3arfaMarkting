@@ -1,0 +1,38 @@
+#card-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-swiper .swiper {
+  max-width: 22.25rem !important;
+  max-height: 27.5rem !important ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-swiper .swiper-slide-shadow-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: aquamarine;
+}
+@media screen and (max-width: 640px) {
+  #card-swiper .swiper-slide {
+    max-width: 12.25rem !important; /* 340px / 16 */
+    max-height: 17.5rem !important ; /* 520px / 16 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

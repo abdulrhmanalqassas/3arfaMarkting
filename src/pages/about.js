@@ -1,20 +1,15 @@
 import { Parallax } from "react-scroll-parallax";
-
-import mission from "../assets/images/bg/bg1.jpg"; // First background image
-import vision from "../assets/images/bg/bg2.jpg"; // Second background image
-import safety from "../assets/images/bg/bg3.jpg"; // Third background image
 import { UAParser } from "ua-parser-js";
 import NavLight from "../components/navLight";
 import TestimonialsSlider from "../components/TestimonialsSlider";
 import TeamSection from "../components/team";
 import Client from "../components/client";
-import ImgSwiper from "../components/ImgSwiper";
+import CardsSwiper from "../cardSwiper/cardsSwiper";
+import Gallery from "../components/Gallery";
 export function isMobileDevice() {
   const parser = new UAParser();
   const deviceType = parser.getDevice().type;
-
   const isMobile = deviceType === "mobile" || deviceType === "tablet";
-
   return isMobile;
 }
 const ImgParallax = ({ speed, imgSrc }) => {
@@ -215,6 +210,8 @@ export const AboutPage = () => {
       <TestimonialsSlider />
       <Client />
       {/* <ImgSwiper /> */}
+      <Gallery />
+      {/* <CardsSwiper /> */}
       <TeamSection />
     </>
   );

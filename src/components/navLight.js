@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logoDark from "../assets/images/logo-dark.png";
 import logoLight from "../assets/images/logo-light.png";
 import { Link as Link1 } from "react-scroll";
@@ -7,6 +7,7 @@ import { Link as Link1 } from "react-scroll";
 export default function NavLight() {
   let [scroll, setScroll] = useState(false);
   let [manu, setManu] = useState(false);
+  const location = useLocation(); // Get the current location
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -64,64 +65,53 @@ export default function NavLight() {
         >
           <ul className="navbar-nav nav-light sidebar-nav" id="navbar-navlist">
             <li className="nav-item">
-              <Link1
-                className="nav-link ms-0"
-                to="home"
-                smooth={true}
-                duration={100}
-                activeClass="active"
-                spy={true}
+              <Link
+                className={`nav-link ms-0 ${
+                  location.pathname === "/3arfaMarkting" ? "active" : ""
+                }`}
+                to="/3arfaMarkting"
               >
                 Home
-              </Link1>
+              </Link>
             </li>
             <li className="nav-item">
               <Link
-                className="nav-link ms-0"
-                to="/about"
+                className={`nav-link ms-0 ${
+                  location.pathname === "/3arfaMarkting/about" ? "active" : ""
+                }`}
+                to="/3arfaMarkting/about"
               >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link1
-                className="nav-link ms-0"
-                to="about"
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-                spy={true}
+              <Link
+                className={`nav-link ms-0 ${
+                  location.hash === "#about" ? "active" : ""
+                }`}
+                // to="about"
+                // smooth={true}
+                // duration={1000}
+                // activeClass="active"
+                // spy={true}
               >
                 more
-              </Link1>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link1
-                className="nav-link ms-0"
+              <Link
+                className={`nav-link ms-0 ${
+                  location.hash === "#about" ? "active" : ""
+                }`}
                 to="about"
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-                spy={true}
+                // smooth={true}
+                // duration={1000}
+                // activeClass="active"
+                // spy={true}
               >
                 Campaiyns
-              </Link1>
+              </Link>
             </li>
-            {/* <li className="nav-item">
-                            <Link1 className="nav-link ms-0" to="services" smooth={true} duration={1000} activeClass='active' spy={true}>Services</Link1>
-                        </li>
-                        <li className="nav-item">
-                            <Link1 className="nav-link ms-0" to="review" smooth={true} duration={1000} activeClass='active' spy={true}>Testimonial</Link1>
-                        </li>
-                        <li className="nav-item">
-                            <Link1 className="nav-link ms-0" to="pricing" smooth={true} duration={1000} activeClass='active' spy={true}>Pricing</Link1>
-                        </li>
-                        <li className="nav-item">
-                            <Link1 className="nav-link ms-0" to="blog" smooth={true} duration={1000} activeClass='active' spy={true}>Blogs</Link1>
-                        </li>
-                        <li className="nav-item">
-                            <Link1 className="nav-link ms-0" to="contact" smooth={true} duration={1000} activeClass='active' spy={true}>Contact us</Link1>
-                        </li> */}
           </ul>
         </div>
       </div>

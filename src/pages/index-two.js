@@ -18,6 +18,10 @@ import GetInTouch from "../components/getInTuoch";
 import Partnners from "../components/Partners.scene";
 
 import target from "../assets/icons/target.svg";
+import Cta from "../components/cta";
+import Blogs from "../components/blog";
+import AgencyTab from "../components/agencyTab";
+import Pricing from "../components/pricing";
 
 export default function IndexTwo() {
   const [bg, setBg] = useState(bg1);
@@ -112,14 +116,13 @@ export default function IndexTwo() {
       <About />
       <Services />
       <Partnners />
-      {/* <AgencyTab /> */}
-      {/* <Cta /> */}
-
-      {/* <Pricing/> */}
-      {/* <Blogs/> */}
+      {/* <Switcher />
+      <Cta />
+      <AgencyTab />
+      <Pricing />
+      <Blogs /> */}
       <GetInTouch />
       <Footer />
-      <Switcher />
     </>
   );
 }
