@@ -16,7 +16,7 @@ export default function CampaignsPage() {
         </header>
         <ul className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
           {campaignImages.map(({ src, alt }) => (
-            <li key={src} className="overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800">
+            <li key={src} className="ms-0 overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800">
               <img
                 src={src}
                 alt={alt}
