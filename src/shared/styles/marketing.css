@@ -1,0 +1,102 @@
+.marketing-content #about,
+.marketing-content #services,
+.marketing-content #partners,
+.marketing-content #campaigns,
+.marketing-content #contact {
+  scroll-margin-top: 6rem;
+}
+
+.partner-preview {
+  width: 85vw;
+  min-height: 50vh;
+  margin: 10px 0;
+}
+
+@media (min-width: 641px) {
+  .partner-preview {
+    width: 50vw;
+  }
+}
+
+.overlay-dialog {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+body:has(.overlay-dialog[open]) {
+  overflow: hidden;
+}
+
+.gallery-lightbox::backdrop {
+  background: rgb(0 0 0 / 85%);
+}
+
+.gallery-lightbox[open] {
+  display: grid;
+  place-items: center;
+  padding: 4rem 1rem 1rem;
+}
+
+.gallery-lightbox img {
+  max-height: calc(100dvh - 5rem);
+  object-fit: contain;
+}
+
+.contact-field:focus-visible {
+  outline: 2px solid #0d9488 !important;
+  outline-offset: 2px;
+}
+
+#review .tns-nav,
+#review .tns-outer > [data-action] {
+  display: block;
+  margin: 0.75rem auto 0;
+  text-align: center;
+}
+
+#review .tns-nav > button {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+}
+
+#review .tns-nav > button::before {
+  content: "";
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  margin: auto;
+  border: 1px solid #64748b;
+  border-radius: 50%;
+}
+
+#review .tns-nav > .tns-nav-active::before {
+  background: #2dd4bf;
+}
+
+.dark .navbar .navigation .navbar-nav .nav-link.active {
+  color: #fcd34d !important;
+}
+
+#review .tns-outer > [data-action] {
+  padding: 0.5rem 1rem;
+  border: 1px solid #64748b;
+  border-radius: 0.375rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.scroll-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  #home .image-wrap {
+    animation: none;
+  }
+}

@@ -1,0 +1,114 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Arafa Agency home" [ref=f1e5] [cursor=pointer]:
+          - /url: /3arfaMarkting
+        - generic [ref=f1e6]:
+          - list [ref=f1e7]:
+            - listitem [ref=f1e8]:
+              - link "contact us" [ref=f1e9] [cursor=pointer]:
+                - /url: /3arfaMarkting#contact
+          - text: 󰍜
+        - list [ref=f1e11]:
+          - listitem [ref=f1e12]:
+            - link "Home" [ref=f1e13] [cursor=pointer]:
+              - /url: /3arfaMarkting
+          - listitem [ref=f1e14]:
+            - link "About" [ref=f1e15] [cursor=pointer]:
+              - /url: /3arfaMarkting/about
+          - listitem [ref=f1e16]:
+            - link "More" [ref=f1e17] [cursor=pointer]:
+              - /url: /3arfaMarkting#about
+          - listitem [ref=f1e18]:
+            - link "Our Partners" [ref=f1e19] [cursor=pointer]:
+              - /url: /3arfaMarkting#partners
+          - listitem [ref=f1e20]:
+            - link "Campaigns" [ref=f1e21] [cursor=pointer]:
+              - /url: /3arfaMarkting/campaigns
+    - main [ref=f1e22]:
+      - generic [ref=f1e28]:
+        - button "Play agency video" [ref=f1e30] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e31]: 󰐊
+        - heading "arafa Your destination to the top" [level=1] [ref=f1e32]
+        - paragraph [ref=f1e33]: Arafa Agency is an organization seeks to create, lead and manage brands around Egypt.
+      - link "Scroll to Who we are" [ref=f1e34] [cursor=pointer]:
+        - /url: "#about"
+        - generic [aria-hidden] [ref=f1e35]: 󰁅
+      - generic [ref=f1e41]:
+        - generic [ref=f1e46]:
+          - generic [ref=f1e47]: 1+
+          - generic [ref=f1e48]: Years Experience
+        - generic [ref=f1e50]:
+          - paragraph [ref=f1e51]: who we are ?
+          - heading "seeks to create, lead and manage brands around Egypt ." [level=2] [ref=f1e56]
+          - paragraph [ref=f1e57]: Arafa Agency is an organization seeks to create, lead and manage brands around Egypt. As per our point view “Branding” not only means to create visual identity for business, but also to identify, create and manage the cumulative assets and actions that shape the perception of a brand.
+          - link "Read More" [ref=f1e58] [cursor=pointer]:
+            - /url: /3arfaMarkting/about
+            - text: Read More
+            - generic [aria-hidden] [ref=f1e59]: 󰅂
+      - generic [ref=f1e61]:
+        - generic [ref=f1e62]:
+          - heading "🎯 Our Services" [level=2] [ref=f1e63]
+          - paragraph [ref=f1e64]: This is just a simple text made for this unique and awesome template, you can replace it with any text.
+        - generic [ref=f1e65]:
+          - generic [ref=f1e71]:
+            - heading "Designing/building exhibitions" [level=3] [ref=f1e72]
+            - paragraph [ref=f1e73]: If the distribution of letters and words is random, the reader will not be distracted from making.
+          - generic [ref=f1e83]:
+            - heading "Custom-made promotion stands" [level=3] [ref=f1e84]
+            - paragraph [ref=f1e85]: If the distribution of letters and words is random, the reader will not be distracted from making.
+          - generic [ref=f1e95]:
+            - heading "Printing ( indoor , outdoor )" [level=3] [ref=f1e96]
+            - paragraph [ref=f1e97]: If the distribution of letters and words is random, the reader will not be distracted from making.
+          - generic [ref=f1e106]:
+            - heading "Event planning & organization" [level=3] [ref=f1e107]
+            - paragraph [ref=f1e108]: If the distribution of letters and words is random, the reader will not be distracted from making.
+      - region "Our Partners" [ref=f1e112]:
+        - heading "Our Partners" [level=2] [ref=f1e113]
+      - generic [ref=f1e121]:
+        - generic [ref=f1e122]:
+          - heading "Get in touch" [level=2] [ref=f1e123]
+          - paragraph [ref=f1e129]:
+            - text: Use the form to open a draft in your email app, or email
+            - link "arafaagency@gmail.com" [ref=f1e130] [cursor=pointer]:
+              - /url: mailto:arafaagency@gmail.com
+            - text: .
+        - generic [ref=f1e136]:
+          - generic [ref=f1e137]:
+            - generic [ref=f1e138]:
+              - text: "Your Name:"
+              - textbox "Your Name:" [ref=f1e139]:
+                - /placeholder: "Name :"
+            - generic [ref=f1e140]:
+              - text: "Your Email:"
+              - textbox "Your Email:" [ref=f1e141]:
+                - /placeholder: "Email :"
+            - generic [ref=f1e142]:
+              - text: "Your Question:"
+              - textbox "Your Question:" [ref=f1e143]:
+                - /placeholder: "Subject :"
+            - generic [ref=f1e144]:
+              - text: "Your Comment:"
+              - textbox "Your Comment:" [ref=f1e145]:
+                - /placeholder: "Message :"
+          - button "Open Email Draft" [ref=f1e146] [cursor=pointer]
+    - contentinfo [ref=f1e147]:
+      - generic [ref=f1e150]:
+        - link "Back to top" [ref=f1e152] [cursor=pointer]:
+          - /url: "#home"
+        - generic [ref=f1e153]:
+          - paragraph [ref=f1e154]:
+            - text: © 2026 Developed with
+            - generic [aria-hidden] [ref=f1e155]: 󰋑
+            - text: by Qassas.
+          - paragraph [ref=f1e156]: "☎ call: 047-310-711"
+          - paragraph [ref=f1e157]: 📞01099909578
+        - list [ref=f1e158]:
+          - listitem [ref=f1e159]:
+            - link "Arafa Agency on Facebook" [ref=f1e160] [cursor=pointer]:
+              - /url: https://www.facebook.com/Arafa.Agency/
+          - listitem [ref=f1e163]:
+            - link "Email Arafa Agency" [ref=f1e164] [cursor=pointer]:
+              - /url: mailto:arafaagency@gmail.com
+  - alert [ref=f1e168]
